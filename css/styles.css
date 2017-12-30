@@ -1,0 +1,64 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+}
+
+span.fa-stack.fa-4x{
+    font-size: 50px;
+    margin-top: 1%;
+}
+
+div.jumbotron.jumbotron-fluid{
+    margin-top: -4.5%;
+}
+
+#mainNav{
+    background-color: rgba(47,23,15,.9);
+    font-family: Raleway;
+    margin-top: -4%;
+}
+
+.jumbotron {
+    /* padding-top: 6rem;
+    padding-bottom: 6rem; */
+    margin-bottom: 0;
+    background-color:inherit;
+}
+
+.fa-microphone{
+    background: #B37400;
+    border-radius: 50%;
+}
